@@ -1,0 +1,538 @@
+body {
+	font-size: 24px;
+	margin: 0;
+}
+
+ /*top section */
+
+.color-layer {
+    background-color: rgba(10, 150, 200, 0.625);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.color-layer2 {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-section {
+background: url("danny10.jpg") no-repeat center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  vertical-align: top;
+   
+}
+
+/* Top menu */
+.menu-items {
+	
+	text-align: right;
+	vertical-align: top;
+	padding-right: 30px;
+
+	
+}
+
+.menu-items li {
+
+	display: inline-block;
+
+    font-family: 'Average Sans', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    margin: 0 8px 0 15px;
+    font-size: .6em;
+	color: white;
+	
+	letter-spacing: .37em;
+	
+	padding: 20px;
+
+	
+}	
+
+.menu-items li:hover {
+	color: gold;
+}
+
+
+.menu-items li:last-child {
+	
+	background-color: gold;
+	color: black;
+	font-weight: bold;
+	
+	}
+
+.menu-items li:last-child:hover {
+	background-color: rgba(255, 215, 0, .65);
+
+}
+/*
+.menu-items li:first-child {
+	border-right: none;
+	color: #6ccff6;
+	font-size: .7em;
+	font-weight: bold;
+	padding-right: 200px;
+}
+#6ccff6 - teal
+*/
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+      /* if you want it vertically middle of the navbar. */
+    left: 0;
+    top: 0;
+  
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.logo img {
+	width: 60%;
+	height: 60%;
+	
+
+}
+
+
+.nav-bar {
+	background-color: transparent;
+	display: inline-block;
+	top: 0;
+	height: 67px;
+  
+    width: 100%;
+
+   
+    float: left;
+    right: 0;
+    
+  
+   /*background-color: white;*/
+}
+/*
+.pre {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	left: 0%;
+	top: 90px;
+	padding-top: 30px;
+	background-color: rgba(0, 0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    
+    color: #F3EFE0;
+    background-attachment: fixed
+    letter-spacing: .2em;
+}
+*/
+.box-overview {
+	width: 600px;
+	height: 50px;
+	position: absolute;
+	left: 27.5%;
+	top: 220px;
+	padding-bottom: 55px;
+	background-color: transparent;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    text-align: center;
+    font-size: 4em;
+    color: black;
+    background-attachment: fixed;
+    padding-right: 10px;
+    border: 5px solid gold;
+  
+
+}
+
+.left {
+	display: inline-block;
+	height: 100%;
+	padding-bottom: 55px;
+	padding-right: 25px;
+	padding-left: 15px;
+    color: black;
+    letter-spacing: .03em;
+    background-color: gold;
+
+}
+
+.right {
+	display: inline-block;
+	/*color: #6ccff6;*/
+   color: white;
+	
+}
+
+.click-me {
+	width: 170px;
+	height: 50px;
+	padding-top: 15px;
+    border-radius: 0%;
+	left: 44%;
+	bottom: 190px; 
+	text-align: center;
+	/*background-color: rgba(0, 0, 0, 0);*/
+	background-color: gold;
+	font-family: 'Average Sans', sans-serif;
+	color: black;
+	font-weight: bold;
+	position: absolute;
+	background-attachment: fixed;
+	/*border: 3px solid black;*/
+	
+	
+	letter-spacing: .03em;
+}
+
+.click-me:hover{ 
+background-color: rgba(255, 215, 0, .65) }
+
+/*
+.menu-items li:hover { 
+	background-color: rgba(0, 0, 0, 0.5); 
+	width: 50px;
+	height: 50px;
+}*/
+/*
+.layer {
+	color: rgba(0, 0, 0, .5);
+}
+.autry {
+	color: #4ba3c3;
+
+}*/
+
+.brief-about {
+	width: 575px;
+	height: 300px;
+	padding-top: 15px;
+	left: 29%;
+	top: 330px;
+	font-family: 'Halant', serif;
+	color: white;
+	text-align: center;
+	position: absolute;
+	font-size: .8em;
+	text-align: left;
+}
+
+
+
+.misc-color {
+    background-color: rgba(10, 150, 200, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.misc-color2 {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.misc {
+background: url("hey15.jpg") no-repeat center ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  vertical-align: top;
+   
+}
+/* 4th section */
+
+
+
+.spoken-word {
+	height: 700px;
+	width: 100%;
+	position: relative;
+	vertical-align: top;
+	
+  background-color:  #dad2d8;
+ 
+	/*#C47335*/
+
+	
+}
+
+
+
+.professional {
+	background-color: #F3EFE0;
+	height: 700px;
+	width: 100%;
+	position: relative;
+	vertical-align: top;
+}
+
+.blog {
+	background-color: #FFC857;
+	height: 700px;
+	width: 100%;
+	position: relative;
+	vertical-align: top;
+}
+/*
+@media only screen and (max-width: 650px) {
+	.about-img, .about-body {
+		width: 100%;
+	}
+}
+*/
+
+.read-more {
+	width: 150px;
+	height: 50px;
+	padding-top: 15px;
+	left: 50%;
+	bottom: 0;
+	text-align: center;
+	/*background-color: rgba(0, 0, 0, 0);*/
+	background-color: gold;
+	font-family: 'Average Sans', sans-serif;
+	color: black;
+	border: 2px solid gold;
+	position: absolute;
+	background-attachment: fixed;
+}
+
+.read-more:hover{ background-color: gold; }
+/*
+.menu-items li:hover { 
+	background-color: rgba(0, 0, 0, 0.5); 
+	width: 50px;
+	height: 50px;
+}*/
+
+.about {
+	width: 100%;
+	height: 300px;
+	background-color: #F3EFE0;
+	/*background-color: #084C61;*/
+	
+	vertical-align: top;
+	position: relative;
+}
+
+.about-word {
+   width: 70px;
+   height: 40px;
+   right: 0;
+   top: 0;
+   border: 1px solid black;
+}
+
+/*
+.about-color {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+*/
+.about-title {
+    position: absolute;
+    left: 20%;
+    top: 3.5%;
+    width: 150px;
+    font-size: 1em;
+    text-align: left;
+    font-family: 'Cormorant Garamond', serif;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    color: #1c2541;
+    border-bottom: 1px solid #1c2541;
+}
+/*
+
+.about-all {
+	position: absolute;
+	top: 27%;
+	width: 100%;
+	height: 500px;
+	color: #1c2541;
+}
+
+.about-content {
+	position: absolute;
+	left: 20%;
+	top: 10%;
+	width: 300px;
+	height: 200px;
+	padding-top: 10px;
+	color: #1c2541;
+
+}
+
+.about-content h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	color: #1c2541;
+}
+*/
+.about-picture {
+	width: 250px;
+	height: 100%;
+	vertical-align: top;
+	background: url("dan1.png") no-repeat center  ; 
+	background-size: 400px;
+    padding-bottom: 50px;
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+
+.about-pic-color {
+	width: 100%;
+	height: 100%;
+	
+    background-color: rgba(255, 215, 0, .3);
+	position: relative;
+
+}
+
+.about-pic-color2 {
+	width: 100%;
+	height: 100%;
+	
+    background-color: rgba(0, 0, 0, .3);
+	position: relative;
+
+}
+/*
+.about-picture img {
+    width: 90%;
+    height: 90%;
+	border-radius: 100%; 
+	padding: 13px;
+}
+*/
+.about-headers {
+	position: absolute;
+	left: 17%;
+	top: 9%;
+	color: #1c2541;
+	list-style-type: none;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.about-headers li {
+	list-style-type: none;
+	color: #373f51;
+}
+
+.Y {
+	color: #1c2541;
+}
+.about-facts {
+	position: absolute;
+	right : 5%;
+	top: 10%;
+	width: 300px;
+	height: 400px;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1em;
+	color: white;
+}
+
+.about-facts h2 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.1em;
+	color: white;
+}
+
+.columns {
+	width: 100%;
+	height: 800px;
+	vertical-align: top;
+	position: relative;
+}
+
+.color-columns {
+    position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.column1 {
+	display: inline-block;
+	left: 0%;
+	position: absolute;
+	width: 24%;
+	height: 100%;
+	background-color: blue;
+	padding-right: 15px;
+}
+
+.column2 {
+	display: inline-block;
+	left: 25%;
+	position: absolute;
+	width: 24%;
+	height: 100%;
+	background-color: red;
+	padding-right: 15px;
+}
+
+.column3 {
+	display: inline-block;
+    left: 50%;
+	position: absolute;
+	width: 24%;
+	height: 100%;
+	background-color: green;
+	padding-right: 15px;
+}
+
+.column4 {
+	display: inline-block;
+	left: 75%;
+	position: absolute;
+	width: 24%;
+	height: 100%;
+	background-color: pink;
+	padding-right: 15px;
+}
+
+
